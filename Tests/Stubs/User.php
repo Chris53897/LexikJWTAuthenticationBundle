@@ -78,6 +78,8 @@ final class User implements UserInterface
 
     /**
      * {@inheritdoc}
+     *
+     * @return void
      */
     public function eraseCredentials()
     {

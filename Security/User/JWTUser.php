@@ -71,6 +71,8 @@ class JWTUser implements JWTUserInterface
 
     /**
      * {@inheritdoc}
+     *
+     * @return void
      */
     public function eraseCredentials()
     {
